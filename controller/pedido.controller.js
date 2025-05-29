@@ -58,7 +58,7 @@ const apagar = async (req,res)=>{
         }
     }catch(err){
         console.error('Erro ao atualizar os dados',err)
-        res.status(500).json({message: 'Erro ao atualizar os dados'})
+        res.status(500).json({message: 'Erro ao apagar os dados'})
     }
 }
 
